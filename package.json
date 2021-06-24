@@ -1,0 +1,20 @@
+{
+  "name": "bugtracker",
+  "version": "1.0.0",
+  "description": "Application Lifecycle Management (ALM) software helps developers and users by tracking and planning development activities. In an Agile Development environment, ALM tools cover a product from inception to retirement.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FIOpwK/BugTracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FIOpwK/BugTracker/issues"
+  },
+  "homepage": "https://github.com/FIOpwK/BugTracker#readme"
+}
