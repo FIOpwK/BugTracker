@@ -1,0 +1,46 @@
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    border: 1px dashed green;
+    background-color:lightblue;
+}
+
+nav {
+    width: auto;
+    height: 50px;
+    border: 1px solid red;
+    background-color: darkblue;
+}
+
+nav a {
+    color: white;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login-container {
+    padding: 5%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    justify-items: center;
+    justify-content: space-evenly;
+    
+}
+
+ul {
+    justify-items:center;
+    justify-content: space-around;
+    width:auto;
+    border: 1px solid black;
+    display:flex;
+}

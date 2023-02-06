@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="../index.css" rel="stylesheet" />
+    <title>BugTracker App | Login</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <a href="#">Login</a>
+            <a href="../index.html">Logout</a>
+            <a href="#">Submit New</a>
+            <a href="#">Register</a>
+        </ul>
+
+    </nav>
+    <p>
+        BugTracker App (R)
+    </p>
+    <form action="/" method="post">
+        <div class="login-container">
+            <label>UserName</label>
+            <input type="text" placeholder="Enter Username" name="username" value="" />
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter Password" name="password" value="" />
+
+            <button type="submit">Login</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember" /> Remember me
+            </label>
+            <div>
+                <span>Forgot <a href="#">password?</a></span>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
