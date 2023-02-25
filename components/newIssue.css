@@ -1,0 +1,32 @@
+@media (min-width: 800px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        grid-gap: 16px;
+        border: 1px solid black;
+    }
+
+    aside {
+        align-self: start;
+        border: 1px solid green;
+    }
+}
+
+nav {
+    width: auto;
+    height: 50px;
+    border: 1px solid red;
+    background-color: darkblue;
+}
+
+nav a {
+    color: white;
+}
+
+ul {
+    justify-items: center;
+    justify-content: space-around;
+    width: auto;
+    border: 1px solid black;
+    display: flex;
+}
